@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Word of the Day</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="card">
+      <div class="flag-row">
+        <span class="flag">🇬🇧</span>
+        <span class="flag">🇫🇷</span>
+        <span class="flag">🇮🇹</span>
+      </div>
+      <p class="label">Word of the Day</p>
+      <h1 class="word" id="english">—</h1>
+      <div class="translations">
+        <div class="translation">
+          <span class="lang">Français</span>
+          <span class="trans" id="french">—</span>
+        </div>
+        <div class="translation">
+          <span class="lang">Italiano</span>
+          <span class="trans" id="italian">—</span>
+        </div>
+      </div>
+      <button onclick="nextWord()">Next Word →</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
